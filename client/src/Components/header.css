@@ -1,0 +1,44 @@
+.header-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 20vh; /* Full viewport height */
+}
+.text-background {
+    background-image: url("bgres.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(192, 235, 84);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.text-background h1 {
+    font-size: 3rem; /* Adjust size */
+    font-weight: bold;
+    color: rgb(255, 255, 255); /* Base text color */
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+
+    /* 3D Shadow Effect */
+    text-shadow: 2px 2px 0 #000000;
+}
+
+body {
+    background-image: url('../bgimg.jpg'); /* Adjust the path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
